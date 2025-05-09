@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Flightforreservations.com",
-  description: "",
+  title: "Flights For Reservations | Find Cheap Flights",
+  description: "Book your next flight with flightsforreservations.com, and score big savings. Find exclusive deals and offers now!",
 };
 
 export default function RootLayout({ children }) {

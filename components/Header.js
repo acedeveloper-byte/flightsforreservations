@@ -20,20 +20,20 @@ const Header = () => {
           <Nav className="ms-auto mob-nav">
             <a
               href="/"
-              className="mx-2 fw-medium text-decoration-none text-dark mx-3"
+              className="mx-2 fw-medium text-decoration-none text-dark mx-3 navigation"
             >
               Home
             </a>
             <a
               href="/about-us"
-              className="mx-2 fw-medium text-decoration-none text-dark mx-3"
+              className="mx-2 fw-medium text-decoration-none text-dark mx-3 navigation"
             >
               About Us
             </a>
            
             <a
               href="/contact-us"
-              className="mx-2 fw-medium text-decoration-none text-dark mx-3"
+              className="mx-2 fw-medium text-decoration-none text-dark mx-3 navigation"
             >
               Contact Us
             </a>

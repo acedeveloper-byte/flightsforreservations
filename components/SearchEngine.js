@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div className="hero-section">
       <div className="overlay">
         <div className="text-center text-white">
-          <h1 className="hero-title">Book Premium Flights at Low  <br />Fares!</h1>
+          <h1 className="hero-title">Book Premium Flights at Low Fares!</h1>
           <div className="btn-group mt-4">
             <Button className="explore-btn me-3">Explore More</Button>
             <Button className="contact-btn explore-btn">Contact Us</Button>

@@ -21,9 +21,9 @@ const page = () => {
                 out to us and we’ll respond as soon as we can.
               </p>
               <ul className="list-unstyled">
-                <li><strong>Phone:</strong> +1 (000) 000-0000</li>
+                <li><strong>Phone:</strong> +1 (855) 838-5939</li>
                 <li><strong>Email:</strong> support@flightsforreservations.com</li>
-                <li><strong>Address:</strong> Collins Street, Victoria 80, Australia</li>
+                <li><strong>Address:</strong> 222 NE 44TH ST MIAMI, FL 33138</li>
               </ul>
             </Col>
 

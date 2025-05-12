@@ -78,7 +78,7 @@ const FlightTickets = () => {
                         {dest.price}
                       </Button>
                       <Button variant="outline-light" className=" px-3 py-1 fw-semibold button-call">
-                        <a href="tel: +1" className="text-decoration-none text-white">
+                        <a href="tel: +1 (855) 838-5939" className="text-decoration-none text-white">
                           Book Now &gt;
                         </a>
                       </Button>

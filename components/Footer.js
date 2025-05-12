@@ -18,11 +18,11 @@ const Footer = () => {
             <h5 className="mb-3">Need flightsforreservations Help?</h5>
             <p className="border p-3 rounded" style={{ borderColor: "#fff3", borderStyle: "dashed" }}>
               <small>Got Questions? Call us 24/7!</small><br />
-              <strong>Call Us:</strong> <span className="text-danger">+1-000-000-0000</span>
+              <strong>Call Us:</strong> <span className="text-danger">+1 (855) 838-5939</span>
             </p>
             <h6 className="mt-4">Contact Info</h6>
             <p>
-              Location: Collins Street, Victoria 80, Australia
+              Location: 222 NE 44TH ST MIAMI, FL 33138
             </p>
             <div className="d-flex gap-2">
               <a href="#"><FaFacebookF /></a>
@@ -67,7 +67,7 @@ const Footer = () => {
             <div className="ms-3 text-white-50">2025 flightsforreservations. All rights reserved.</div>
           </div>
           <div className="d-flex align-items-center gap-3">
-            <Image src="/images/logo/payments.png" alt="MasterCard" width={400} height={25} />
+            <Image src="/images/payments.png" alt="MasterCard" width={400} height={25} />
            
           </div>
           <div className="d-flex gap-2">

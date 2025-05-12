@@ -22,7 +22,7 @@ const page = () => {
               </p>
               <ul className="list-unstyled">
                 <li><strong>Phone:</strong> +1 (000) 000-0000</li>
-                <li><strong>Email:</strong> support@flightforreservations.com</li>
+                <li><strong>Email:</strong> support@flightsforreservations.com</li>
                 <li><strong>Address:</strong> Collins Street, Victoria 80, Australia</li>
               </ul>
             </Col>

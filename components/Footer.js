@@ -15,7 +15,7 @@ const Footer = () => {
         <Row className="gy-4">
           {/* Help Section */}
           <Col md={4}>
-            <h5 className="mb-3">Need Flightforreservations Help?</h5>
+            <h5 className="mb-3">Need flightsforreservations Help?</h5>
             <p className="border p-3 rounded" style={{ borderColor: "#fff3", borderStyle: "dashed" }}>
               <small>Got Questions? Call us 24/7!</small><br />
               <strong>Call Us:</strong> <span className="text-danger">+1-000-000-0000</span>
@@ -64,7 +64,7 @@ const Footer = () => {
         <div className="d-flex flex-column flex-lg-row justify-content-between align-items-center gap-3">
           <div className="d-flex align-items-center gap-2">
             <Image src="/images/logo/logo.png" alt="Logo" width={200} height={50} />
-            <div className="ms-3 text-white-50">2020 flightforreservations. All rights reserved.</div>
+            <div className="ms-3 text-white-50">2025 flightsforreservations. All rights reserved.</div>
           </div>
           <div className="d-flex align-items-center gap-3">
             <Image src="/images/logo/payments.png" alt="MasterCard" width={400} height={25} />

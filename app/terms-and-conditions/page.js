@@ -14,7 +14,7 @@ const page = () => {
 <hr />
 
 <h3>1. Use of the Website</h3>
-<p>Flightforreservations.com is a third-party travel booking platform that enables users to search for, compare, and reserve travel-related services such as flights, hotels, and car rentals offered by third-party providers.</p>
+<p>flightsforreservations.com is a third-party travel booking platform that enables users to search for, compare, and reserve travel-related services such as flights, hotels, and car rentals offered by third-party providers.</p>
 <p>By using this website, you represent that you:</p>
 <ul>
 <li >Are at least 18 years of age.</li>
@@ -23,7 +23,7 @@ const page = () => {
 </ul>
 
 <h3>2. Bookings and Payments</h3>
-<p>All bookings made through Flightforreservations are subject to availability and the terms and conditions of the third-party travel providers.</p>
+<p>All bookings made through flightsforreservations are subject to availability and the terms and conditions of the third-party travel providers.</p>
 <h4>a. Pricing and Availability</h4>
 <p>Prices and availability are not guaranteed until booking is confirmed. We are not responsible for price changes, booking errors, or service interruptions caused by third-party providers.</p>
 <h4>b. Payment</h4>
@@ -45,7 +45,7 @@ const page = () => {
 <p>We act only as an intermediary between you and third-party travel service providers. We do not control or guarantee the services offered by these providers. Any issues, claims, or disputes regarding reservations, cancellations, or travel experiences must be resolved directly with the provider.</p>
 
 <h3>6. Limitation of Liability</h3>
-<p>To the maximum extent permitted by law, Flightforreservations.com is not liable for any:</p>
+<p>To the maximum extent permitted by law, flightsforreservations.com is not liable for any:</p>
 <ul>
 <li >Direct, indirect, consequential, or incidental damages</li>
 <li >Loss of data, revenue, or profits</li>
@@ -57,7 +57,7 @@ const page = () => {
 <p>Your use of the site is also governed by our Privacy Policy, which describes how we gather, use, and protect your personal information.</p>
 
 <h3>8. Changes to Terms</h3>
-<p>We, at Flightforreservations, reserve the right to modify these Terms at any time. Once we post the changes, they will be effective immediately. If you accept the revised terms, only then proceed further to use our site or services.</p>
+<p>We, at flightsforreservations, reserve the right to modify these Terms at any time. Once we post the changes, they will be effective immediately. If you accept the revised terms, only then proceed further to use our site or services.</p>
 
 <h3>9. Termination</h3>
 <p>We may suspend or terminate your access to the website at any time and for any reason, including if we believe you have violated these Terms.</p>
@@ -67,7 +67,7 @@ const page = () => {
 
 <h3>11. Contact Us</h3>
 <p>If you have any questions about these Terms, please contact us at:</p>
-<p><strong>Flightforreservations.com</strong><strong><br /></strong>Email: <strong>support@flightforreservations.com</strong></p>
+<p><strong>flightsforreservations.com</strong><strong><br /></strong>Email: <strong>support@flightsforreservations.com</strong></p>
 </Container>
 
 

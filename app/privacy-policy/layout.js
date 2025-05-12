@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Privacy Policy | flightforreservations.com",
+  title: "Privacy Policy | flightsforreservations.com",
   description: "",
 };
 

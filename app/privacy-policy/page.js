@@ -13,7 +13,7 @@ const page = () => {
     <h1>Privacy Policy </h1>
 <hr />
 
-<p>Welcome to <strong>flightforreservations.com</strong> ("we", "us", "our"). Your privacy is important to us, and we are committed to protecting the personal information you share with us. This Privacy Policy describes our practices regarding the collection and handling of your personal information when you visit flightforreservations or use our services.</p>
+<p>Welcome to <strong>flightsforreservations.com</strong> ("we", "us", "our"). Your privacy is important to us, and we are committed to protecting the personal information you share with us. This Privacy Policy describes our practices regarding the collection and handling of your personal information when you visit flightforreservations or use our services.</p>
 <p>By using our website and services, you agree to the terms outlined in this Privacy Policy.</p>
 <h3>1. Information We Collect</h3>
 <p>We may gather the below-stated information:</p>
@@ -27,7 +27,7 @@ const page = () => {
 <li >Travel details (e.g., destinations, dates, preferences)<br /><br /></li>
 </ul>
 <h4>b. Non-Personal Information</h4>
-<p>We at flightforreservations. com, may collect non-identifiable details automatically, such as:</p>
+<p>We at flightsforreservations. com, may collect non-identifiable details automatically, such as:</p>
 <ul>
 <li >Device type</li>
 <li >IP address</li>
@@ -57,10 +57,10 @@ const page = () => {
 <p>We do not sell your personal information.</p>
 
 <h3>4. Cookies and Tracking Technologies</h3>
-<p>We, at flightforreservations, use cookies and similar technologies to enhance your experience, analyze site usage, and deliver personalized content. However, customers can easily manage their cookie preferences by using their browser settings.</p>
+<p>We, at flightsforreservations, use cookies and similar technologies to enhance your experience, analyze site usage, and deliver personalized content. However, customers can easily manage their cookie preferences by using their browser settings.</p>
 
 <h3>5. Data Security</h3>
-<p>We at flightforreservations.com, implement reasonable security measures to protect your personal information. However, please be assured that there is no method of transmission on the internet that is completely secure.</p>
+<p>We at flightsforreservations.com, implement reasonable security measures to protect your personal information. However, please be assured that there is no method of transmission on the internet that is completely secure.</p>
 
 <h3>6. Your Rights and Choices</h3>
 <p>Based on the location, the user may have the right to:</p>
@@ -70,17 +70,17 @@ const page = () => {
 <li >Withdraw their consent at any moment</li>
 <li >Lodge a complaint with a data protection authority<br /><br /></li>
 </ul>
-<p>To exercise your rights, contact us at: <strong>privacy@flightforreservations.com</strong></p>
+<p>To exercise your rights, contact us at: <strong>privacy@flightsforreservations.com</strong></p>
 
 <h3>7. Third-Party Links</h3>
-<p>Our site may contain links to third-party websites. flightforreservations should not be held liable for their privacy practices. We encourage you to go through their privacy policies separately.</p>
+<p>Our site may contain links to third-party websites. flightsforreservations should not be held liable for their privacy practices. We encourage you to go through their privacy policies separately.</p>
 
 <h3>8. Changes to This Privacy Policy</h3>
-<p>flightforreservations.com has the right to update this Privacy Policy from time to time. We will post all the applicable changes on this page, and they will be effective immediately after posting.</p>
+<p>flightsforreservations.com has the right to update this Privacy Policy from time to time. We will post all the applicable changes on this page, and they will be effective immediately after posting.</p>
 
 <h3>9. Contact Us</h3>
 <p>If you have any questions about this Privacy Policy or our practices, please contact us at:</p>
-<p><strong>flightforreservations.com</strong><strong><br /></strong> Email: <strong>support@flightforreservations.com</strong>&nbsp;</p>
+<p><strong>flightsforreservations.com</strong><strong><br /></strong> Email: <strong>support@flightsforreservations.com</strong>&nbsp;</p>
 <p><br /><br /></p>
 </Container>
       <Footer/>

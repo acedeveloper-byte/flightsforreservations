@@ -67,7 +67,7 @@ const Footer = () => {
             <div className="ms-3 text-white-50">2025 flightsforreservations. All rights reserved.</div>
           </div>
           <div className="d-flex align-items-center gap-3">
-            <Image src="/images/payments.png" alt="MasterCard" width={400} height={25} />
+            <Image src="/images/payments.png" alt="MasterCard" width={300} height={25} />
            
           </div>
           <div className="d-flex gap-2">

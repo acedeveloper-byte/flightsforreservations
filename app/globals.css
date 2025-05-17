@@ -1,15 +1,15 @@
-*{
+* {
   margin: 0;
   padding: 0;
 
 }
 
 
-.call-btn{
-      background: #EE2654;
-    border: none !important;
- /* border-radius: 50% 20% / 10% 40% !important; */
- border-radius: 10px 100px / 120px !important;
+.call-btn {
+  background: #EE2654;
+  border: none !important;
+  /* border-radius: 50% 20% / 10% 40% !important; */
+  border-radius: 10px 100px / 120px !important;
 }
 
 
@@ -17,7 +17,7 @@
 
 .overlay {
   width: 100%;
-    background: url('../public/images/home-poster.jpg') no-repeat center center/cover;
+  background: url('../public/images/home-poster.jpg') no-repeat center center/cover;
 
   padding: 3rem 1rem;
   /* border-radius: 10px; */
@@ -28,7 +28,8 @@
   font-weight: bold;
 }
 
-.explore-btn, .contact-btn {
+.explore-btn,
+.contact-btn {
   padding: 0.8rem 2rem;
   font-size: 1.1rem;
   border: none;
@@ -36,10 +37,10 @@
 }
 
 .explore-btn {
-background: #ee2654 !important; 
-    border: none !important;
-    padding: 12px 24px !important;
-    border-radius: 0 !important;
+  background: #ee2654 !important;
+  border: none !important;
+  padding: 12px 24px !important;
+  border-radius: 0 !important;
 }
 
 .contact-btn {
@@ -86,9 +87,9 @@ background: #ee2654 !important;
 }
 
 .search-box {
- background: #f4f8ff1c;
-    padding: 23px;
-    margin-top: 2rem;
+  background: #f4f8ff1c;
+  padding: 23px;
+  margin-top: 2rem;
 }
 
 .trip-toggle .btn {
@@ -105,7 +106,7 @@ button:focus {
   box-shadow: none !important;
 }
 
-label{
+label {
   color: #fff !important;
 }
 
@@ -244,18 +245,20 @@ label{
   background-color: #ff416c;
   border-radius: 50%;
   padding: 5px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
-    content: "prev" !important;
-    font-size: 20px !important;
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "prev" !important;
+  font-size: 20px !important;
   color: #fff !important;
-  }
+}
 
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
-    content: "next";
-     font-size: 20px !important;
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "next";
+  font-size: 20px !important;
   color: #fff !important;
 
 }
@@ -267,7 +270,7 @@ label{
 }
 
 
-.button-call{
+.button-call {
   background-color: #000 !important;
 }
 
@@ -288,7 +291,8 @@ label{
   color: #ff416c;
 }
 
-.footer h5, .footer h6 {
+.footer h5,
+.footer h6 {
   color: #fff;
 }
 
@@ -339,10 +343,98 @@ label{
 
 
 
-@media  (max-width: 480px){
-.hero-title {
+@media (max-width: 480px) {
+  .hero-title {
     font-size: 25px !important;
     font-weight: bold;
+  }
+
 }
 
+
+.expedia-popup .modal-content {
+  border-radius: 12px;
+  padding: 20px;
+  background: #fff;
+  margin-top: 5rem;
+}
+
+.expedia-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+}
+
+.expedia-logo img {
+  width: 12rem;
+  position: absolute;
+  top: -3rem;
+}
+
+.expedia-buttons .btn {
+  width: 100%;
+  font-weight: 600;
+  background: #1156bb;
+  border: none;
+  padding: 12px;
+}
+
+.phone-offer {
+  background-color: #e78915;
+  color: #fff;
+  font-weight: bold;
+}
+
+.agent-image {
+  width: 75px;
+  border-radius: 50%;
+  border: 4px solid green;
+}
+
+.plane-img {
+  width: 10rem;
+  margin-right: 20px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+@media (max-width: 576px) {
+  .expedia-logo img {
+    width: 16rem;
+    top: -3rem;
+  }
+
+  .plane-img {
+    width: 14rem;
+    margin-right: 10px;
+  }
+
+  .agent-image {
+    width: 85px;
+    border: 3px solid green;
+  }
+
+  .phone-offer {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .modal-body h4 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .modal-body p {
+    font-size: 0.95rem;
+  }
+
+  .expedia-buttons .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }

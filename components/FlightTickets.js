@@ -14,19 +14,19 @@ const destinations = [
   },
   {
     location: "Paris",
-       price: "From $350/ oneway",
+    price: "From $350/ oneway",
 
     image: "/images/flight-deals/delta.png",
   },
   {
     location: "London",
-       price: "From $350/ oneway",
+    price: "From $350/ oneway",
 
     image: "/images/flight-deals/nepa.png",
   },
   {
     location: "Tokyo",
-       price: "From $350/ oneway",
+    price: "From $350/ oneway",
 
     image: "/images/flight-deals/delta.png",
   },
@@ -71,14 +71,25 @@ const FlightTickets = () => {
                     />
                   </div>
                   <Card.Body className="text-start px-4 py-3">
-                    <Card.Title className="fw-bold fs-5">{dest.location}</Card.Title>
+                    <Card.Title className="fw-bold fs-5">
+                      {dest.location}
+                    </Card.Title>
                     <div className="d-flex justify-content-between mt-3">
-                      <Button variant="" className=" px-3 py-1 fw-semibold " style={{    fontSize: '15px',
-    padding: '0px !important'}}>
+                      <Button
+                        variant=""
+                        className=" px-3 py-1 fw-semibold "
+                        style={{ fontSize: "15px", padding: "0px !important" }}
+                      >
                         {dest.price}
                       </Button>
-                      <Button variant="outline-light" className=" px-3 py-1 fw-semibold button-call">
-                        <a href="tel: +1 (855) 838-5939" className="text-decoration-none text-white">
+                      <Button
+                        variant="outline-light"
+                        className=" px-3 py-1 fw-semibold button-call"
+                      >
+                        <a
+                          href="tel: +1-866-294-3029"
+                          className="text-decoration-none text-white"
+                        >
                           Book Now &gt;
                         </a>
                       </Button>

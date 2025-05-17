@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import Header from "@/components/Header";
@@ -21,9 +21,15 @@ const page = () => {
                 out to us and we’ll respond as soon as we can.
               </p>
               <ul className="list-unstyled">
-                <li><strong>Phone:</strong> +1 (855) 838-5939</li>
-                <li><strong>Email:</strong> support@flightsforreservations.com</li>
-                <li><strong>Address:</strong> 222 NE 44TH ST MIAMI, FL 33138</li>
+                <li>
+                  <strong>Phone:</strong> +1-866-294-3029
+                </li>
+                <li>
+                  <strong>Email:</strong> support@flightsforreservations.com
+                </li>
+                <li>
+                  <strong>Address:</strong> 222 NE 44TH ST MIAMI, FL 33138
+                </li>
               </ul>
             </Col>
 
@@ -47,7 +53,11 @@ const page = () => {
 
                 <Form.Group controlId="message" className="mb-3">
                   <Form.Label className="text-dark">Message</Form.Label>
-                  <Form.Control as="textarea" rows={4} placeholder="Write your message here..." />
+                  <Form.Control
+                    as="textarea"
+                    rows={4}
+                    placeholder="Write your message here..."
+                  />
                 </Form.Group>
 
                 <Button variant="primary" type="submit">

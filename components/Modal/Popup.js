@@ -4,7 +4,6 @@ import { useEffect } from "react";
 
 const ExpediaModal = ({ show, onClose }) => {
   useEffect(() => {
-    // Disable scroll when modal is open
     if (typeof window !== "undefined") {
       if (show) {
         document.body.style.overflow = "hidden";
@@ -18,9 +17,7 @@ const ExpediaModal = ({ show, onClose }) => {
     }
   }, [show]);
 
-  const handleCallClick = () => {
-    window.location.href = "tel:+1-855-497-3456";
-  };
+  const phoneNumber = "+1-866-294-3029"; // Centralized for consistency
 
   return (
     <>
@@ -44,23 +41,34 @@ const ExpediaModal = ({ show, onClose }) => {
           paddingLeft: "0px",
         }}
         aria-modal={show}
-        onClick={handleCallClick}
       >
         <div className="modal-dialog modal-dialog-centered">
-          <div
-            className="modal-content text-center"
-            onClick={(e) => e.stopPropagation()}
+          {/* Wrap content in anchor tag */}
+          <a
+            href={`tel:${phoneNumber}`}
+            className="modal-content text-center text-decoration-none text-dark"
+            onClick={(e) => {
+              // Let anchor default behavior trigger phone call
+            }}
+            style={{
+              cursor: "pointer",
+              display: "block",
+              width: "100%",
+            }}
           >
             <div className="modal-header justify-content-end">
               <button
                 type="button"
                 className="btn-close"
-                onClick={onClose}
+                onClick={(e) => {
+                  e.stopPropagation(); // Prevent call trigger
+                  onClose();
+                }}
                 aria-label="Close"
               ></button>
             </div>
             <div className="modal-body">
-              <div className="expedia-logo  justify-content-center">
+              <div className="expedia-logo justify-content-center">
                 <h3
                   style={{
                     fontSize: "34px",
@@ -73,7 +81,7 @@ const ExpediaModal = ({ show, onClose }) => {
               </div>
               <p className="text-muted">Talk to a travel expert and Save 25%</p>
               <h4 className="text-warning mb-3">
-                <i className="fa fa-phone-volume"></i>+1-866-294-3029
+                <i className="fa fa-phone-volume"></i> {phoneNumber}
               </h4>
               <hr />
               <p className="text-dark fw-bold">24/7 Reservation Support</p>
@@ -86,9 +94,7 @@ const ExpediaModal = ({ show, onClose }) => {
                   "Customer Service",
                 ].map((label, i) => (
                   <div className="col-6 mb-2" key={i}>
-                    <a href="#" className="btn btn-primary w-100">
-                      {label}
-                    </a>
+                    <div className="btn btn-primary w-100">{label}</div>
                   </div>
                 ))}
               </div>
@@ -110,11 +116,11 @@ const ExpediaModal = ({ show, onClose }) => {
                 <div>Phone Only Offers</div>
                 <div>
                   <i className="fa fa-phone-volume text-white"></i>&nbsp;
-                  +1-866-294-3029
+                  {phoneNumber}
                 </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </>

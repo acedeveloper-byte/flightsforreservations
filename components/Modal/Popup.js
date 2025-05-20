@@ -76,7 +76,7 @@ const ExpediaModal = ({ show, onClose }) => {
                     marginTop: "-3rem",
                   }}
                 >
-                  AIRLINE HELPDESK
+                 Expedia
                 </h3>
               </div>
               <p className="text-muted">Talk to a travel expert and Save 25%</p>

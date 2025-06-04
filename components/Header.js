@@ -49,7 +49,7 @@ const Header = () => {
 
           {/* Right-Aligned Button */}
           <div className="ms-5">
-            <Link href="tel:  +1-866-294-3029" className="text-decoration-none">
+            <Link href="tel: +1-866-294-3029" className="text-decoration-none">
               <button className="call-btn d-flex align-items-center gap-2 px-4 py-2  text-white">
                 <FaPhoneVolume size={18} />
                 +1-866-294-3029

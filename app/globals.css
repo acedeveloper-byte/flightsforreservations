@@ -438,3 +438,91 @@ label {
     max-width: 50%;
   }
 }
+.customer-card {
+
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px 25px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.help-btn {
+  background-color: #EE2654;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.list {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.list-item {
+ font-size: 15px;
+    color: #000;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.icon {
+  color: #EE2654;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.call-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EE2654;
+  color: white;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.footer-text {
+  font-size: 13px;
+  color: #444;
+}
+
+
+@media (max-width: 480px){
+  .customer-card {
+    border: 1px solid #0000003d;
+    width: 94% !important;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 25px;
+    box-shadow: 0 2px 15px #0000000d;
+    text-align: center;
+  }
+}

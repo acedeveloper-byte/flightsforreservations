@@ -8,12 +8,23 @@ import FlightTickets from "@/components/FlightTickets";
 import Footer from "@/components/Footer";
 import TopDestinations from "@/components/TopDestinations";
 import ExpediaModal from "@/components/Modal/Popup";
+import CustomerCard from "@/components/Customercard";
 
 export default function Home() {
   const [showModal, setShowModal] = useState(true);
   return (
     <>
       <Header />
+      <section style={{
+        height: "100vh",
+        justifyContent: "center",
+        alignItems: "center",
+        display: "flex"
+        ,
+      }}>
+
+        <CustomerCard />
+      </section>
       <ExpediaModal show={showModal} onClose={() => setShowModal(false)} />
 
       <SearchEngine />

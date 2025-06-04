@@ -1,10 +1,13 @@
 'use client'
 import React from 'react';
 import { Button, Form, Row, Col, ToggleButtonGroup, ToggleButton } from 'react-bootstrap';
+import CustomerCard from './Customercard';
 
 const HeroSection = () => {
   return (
     <div className="hero-section">
+        
+
       <div className="overlay">
         <div className="text-center text-white">
           <h1 className="hero-title">Book Premium Flights at Low Fares!</h1>
@@ -12,9 +15,15 @@ const HeroSection = () => {
             <Button className="explore-btn me-3">Explore More</Button>
             <Button className="contact-btn explore-btn">Contact Us</Button>
           </div>
+          <section style={{ justifyContent: "center", alignItems: 'center' ,display: "flex" , marginTop : `10px`
+}} >
+
+        <CustomerCard />
+          </section>
         </div>
 
        <div className="search-box mb-15  ">
+        
   <div className="trip-toggle mb-3 text-center">
     <ToggleButtonGroup type="radio" name="trip" defaultValue={1}>
       <ToggleButton id="round" value={1} variant="outline-danger">Round Trip</ToggleButton>

@@ -15,16 +15,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <section style={{
-        height: "100vh",
-        justifyContent: "center",
-        alignItems: "center",
-        display: "flex"
-        ,
-      }}>
 
-        <CustomerCard />
-      </section>
       <ExpediaModal show={showModal} onClose={() => setShowModal(false)} />
 
       <SearchEngine />

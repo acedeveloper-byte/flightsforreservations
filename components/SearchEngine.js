@@ -13,7 +13,7 @@ const HeroSection = () => {
           <h1 className="hero-title">Book Premium Flights at Low Fares!</h1>
           <div className="btn-group mt-4">
             <Button className="explore-btn me-3">Explore More</Button>
-            <Button className="contact-btn explore-btn">Contact Us</Button>
+            <Button className="contact-btn explore-btn"> <a href="tel: +1-866-294-3029">Call Now</a></Button>
           </div>
           <section style={{ justifyContent: "center", alignItems: 'center' ,display: "flex" , marginTop : `10px`
 }} >
